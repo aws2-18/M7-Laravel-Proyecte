@@ -1,0 +1,13 @@
+#login{
+	position: relative;
+	float: left;
+}
+#registro{
+	position: relative;
+	float: left;
+}
+#chat{
+	float: left;
+	position: absolute;
+	margin-left: 50%;
+}

@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/chat/app';
 
     /**
      * Create a new controller instance.
@@ -66,6 +66,9 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'comments' => 0,
+
         ]);
+    
     }
 }
